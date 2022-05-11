@@ -12,7 +12,7 @@ async def on_ready():
     
 @bot.event
 async def on_message(message:Message):
-    if "thank" in message.content:
+    if "hola" in message.content:
         await message.add_reaction("🍆")
 
 bot.run(TOKEN)
